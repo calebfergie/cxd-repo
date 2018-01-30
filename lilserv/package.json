@@ -1,0 +1,15 @@
+{
+  "name": "lilserv",
+  "version": "1.0.0",
+  "description": "lilserv - assignment #1 for cxd",
+  "main": "lilserv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "calebfergie and expressjs documentation",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "serve-static": "^1.13.1"
+  }
+}
