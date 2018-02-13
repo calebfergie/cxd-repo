@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Calebs Hue Controller App</title>
+  <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+</head>
+
+<body>
+  <div id="bulbs">
+    <div class=bulb id="bulb_1"></div>
+    <div class=bulb id="bulb_2"></div>
+    <div class=bulb id="bulb_3"></div>
+    <div class=bulb id="bulb_4"></div>
+    <div class=bulb id="bulb_5"></div>
+  </div>
+  <div id="unit_controls">
+    <div class=control id="bulb_1_control">
+      <form action="/" method="POST">
+      <input type="radio" name="on_off" value="On"> On
+      </input>
+      <input type="radio" name="on_off" value="Off"> Off
+      </input>
+    </form>
+      <br><br> Brightness: <input type="range" name="brightness_range" min="0" max="254" value="200" id="bulb_1_brightness" />
+
+    </div>
+    <div class=control id="bulb_2_control">
+      <input type="radio" name="on_off" value="On"> On
+      </input>
+      <input type="radio" name="on_off" value="Off"> Off
+      </input>
+      <br><br> Brightness: <input type="range" name="brightness_range" min="0" max="254" value="200" id="bulb_1_brightness" />
+
+    </div>
+    <div class=control id="bulb_3_control">
+      <input type="radio" name="on_off" value="On"> On
+      </input>
+      <input type="radio" name="on_off" value="Off"> Off
+      </input>
+      <br><br> Brightness: <input type="range" name="brightness_range" min="0" max="254" value="200" id="bulb_1_brightness" />
+      <br><br> Color: <input type="color" name="color_range" />
+    </div>
+    <div class=control id="bulb_4_control">
+      <input type="radio" name="on_off" value="On"> On
+      </input>
+      <input type="radio" name="on_off" value="Off"> Off
+      </input>
+      <br><br> Brightness: <input type="range" name="brightness_range" min="0" max="254" value="200" id="bulb_1_brightness" />
+      <br><br> Temperature: <input type="color" name="temperature_range" />
+    </div>
+    <div class=control id="bulb_5_control">
+      <input type="radio" name="on_off" value="On"> On
+      </input>
+      <input type="radio" name="on_off" value="Off"> Off
+      </input>
+      <br><br> Brightness: <input type="range" name="temperature_range" min="0" max="254" value="200" id="bulb_1_brightness" />
+      <br><br> Temperature: <input type="color" name="sometemperature" />
+    </div>
+  </div>
+  <div id="master_controls">
+    <div class=control id=master_panel>
+      MASTER PANEL
+    </div>
+  </div>
+</body>
+
+</html>
