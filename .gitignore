@@ -4,6 +4,9 @@
 #Lazerpark folder (caleb)
 lazerpark/
 
+#arduino
+config.h
+
 ### macOS ###
 *.DS_Store
 .AppleDouble
