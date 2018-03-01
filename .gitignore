@@ -6,6 +6,7 @@ lazerpark/
 
 #arduino
 config.h
+arduino_secrets.h
 
 ### macOS ###
 *.DS_Store
